@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "commitMessage": "chore: define data models and types with zod schemas",
+  "prTitle": "Define core data models and types",
+  "prBody": "This PR implements the core data models for TubeVault using Zod for validation and TypeScript for type safety. Entities defined: Video, Tag, and Note. A types directory has been created to house these schemas.",
+  "notes": "Installed zod as a dependency and defined schemas for Video, Tag, and Note entities. Included relationship fields (tagIds, videoId) to support future features like tagging and notes association. Added an AppState schema for local storage persistence."
+}

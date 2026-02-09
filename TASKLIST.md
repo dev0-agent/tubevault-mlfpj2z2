@@ -7,7 +7,7 @@ It is automatically updated by dev0 as tasks are completed.
 
 ## Phase 1
 
-- [ ] ⏳ **Define Data Models and Types**
+- [x] ✅ **Define Data Models and Types**
   Create the TypeScript interfaces and Zod schemas for the application core entities. We need schemas for `Video` (id, youtubeId, title, url, thumbnail, createdAt), `Tag` (id, label, color), and `Note` (id, content, timestamp). Create a `types` directory.
 
 - [ ] ⏳ **Implement Local Storage Utility**
