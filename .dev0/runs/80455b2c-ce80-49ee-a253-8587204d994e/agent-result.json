@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "commitMessage": "feat: implement local storage utility for videos, tags, and notes
+
+- Created src/lib/storage.ts with CRUD operations
+- Added Zod validation for storage state
+- Handled QuotaExceededError for robust persistence
+- Included a seed function with sample data",
+  "prTitle": "Implement Local Storage Utility",
+  "prBody": "This PR implements a robust Local Storage utility in `src/lib/storage.ts`. 
+
+Key features:
+- CRUD operations for Videos, Tags, and Notes.
+- Automatic cleanup of associated notes when a video is deleted.
+- Automatic cleanup of tag references in videos when a tag is deleted.
+- Schema validation using Zod on data retrieval.
+- Error handling for storage quota limits.
+- Seed function for easy testing and development.",
+  "notes": "The utility uses the `AppStateSchema` from `src/types/index.ts` to ensure data integrity. Valid UUIDs are used in the seed function to comply with the schema requirements."
+}
